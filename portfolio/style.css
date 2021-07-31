@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Noto Sans JP", Arial, Helvetica, sans-serif;
 }
 
 body,
@@ -9,6 +9,8 @@ p {
 }
 
 .header {
+    max-width: 600px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -25,29 +27,11 @@ p {
     margin-right: 8px;
 }
 
-.ui {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    text-align: center;
-    display: flex;
-    justify-content: space-around;
-    background: #fff;
-    border-top: 1px solid #cccccc;
-}
-
-.ui__labo,
-.ui__works {
-    font-size: 24px;
-    padding: 16px 64px;
-    /* background: rgb(255, 230, 130); */
-
-}
-
 /* works */
 .works {
-    max-width: 800px;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 24px;
 }
 
 .work + .work {
@@ -81,4 +65,5 @@ p {
 /* footer */
 .footer {
     margin-top: 40px;
+    text-align: center;
 }
